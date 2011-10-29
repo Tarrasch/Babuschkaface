@@ -1,0 +1,125 @@
+object Form3: TForm3
+  Left = 511
+  Height = 310
+  Top = 656
+  Width = 589
+  Caption = 'Nytt Parti'
+  ClientHeight = 310
+  ClientWidth = 589
+  OnCreate = FormCreate
+  LCLVersion = '0.9.27'
+  object Button1: TButton
+    Left = 392
+    Height = 25
+    Top = 231
+    Width = 99
+    Caption = 'Fyra Spelare'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 24
+    Height = 112
+    Top = 24
+    Width = 168
+    AutoFill = True
+    Caption = 'Spelare 1'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 91
+    ClientWidth = 164
+    ItemIndex = 0
+    Items.Strings = (
+      'Manniska'
+      'Dator'
+    )
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 392
+    Height = 25
+    Top = 111
+    Width = 99
+    Caption = 'Två Spelare'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object RadioGroup2: TRadioGroup
+    Left = 208
+    Height = 112
+    Top = 24
+    Width = 168
+    AutoFill = True
+    Caption = 'Spelare 2'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 91
+    ClientWidth = 164
+    ItemIndex = 0
+    Items.Strings = (
+      'Manniska'
+      'Dator'
+    )
+    TabOrder = 3
+  end
+  object RadioGroup3: TRadioGroup
+    Left = 24
+    Height = 112
+    Top = 144
+    Width = 168
+    AutoFill = True
+    Caption = 'Spelare 3'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 91
+    ClientWidth = 164
+    ItemIndex = 0
+    Items.Strings = (
+      'Manniska'
+      'Dator'
+    )
+    TabOrder = 4
+  end
+  object RadioGroup4: TRadioGroup
+    Left = 208
+    Height = 112
+    Top = 144
+    Width = 168
+    AutoFill = True
+    Caption = 'Spelare 4'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 91
+    ClientWidth = 164
+    ItemIndex = 0
+    Items.Strings = (
+      'Manniska'
+      'Dator'
+    )
+    TabOrder = 5
+  end
+end

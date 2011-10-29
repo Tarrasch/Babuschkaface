@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/ppc386" Date="1229773143"/>
+  <Params Value=" -MObjFPC -Sgi -CrotR -O1 -gl -WG -vewnhi -l -Fu/home/arash/lazarus/lcl/units/i386-linux/ -Fu/home/arash/lazarus/lcl/units/i386-linux/gtk/ -Fu/home/arash/lazarus/packager/units/i386-linux/ -Fu/home/arash/Skolarbeten/Projektarbete/Interface/ -Fu. -o/home/arash/Skolarbeten/Projektarbete/Interface/Babuface -dLCL -dLCLgtk Babuface.lpr"/>
+</CONFIG>
